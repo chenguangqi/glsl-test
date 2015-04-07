@@ -1,0 +1,10 @@
+该项是我学习OpengGL和GLSL着色器的源码,使用的SDL2的Common lisp绑定.
+整个学习的过程参考 *OpenGL编程指南第八版* .
+
+** 安装方法说明
+1. 使用Emacs
+2. 安装quicklisp
+3. 安装slime
+4. 克隆该项目到 =~/quicklisp/local-projects= 目录
+5. 启动slime
+6. 载入该项目 =(ql:quickload "glsl-test")=
