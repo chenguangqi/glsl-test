@@ -2,5 +2,9 @@
 
 (defpackage #:glsl-test
   (:use #:cl)
-  (:export :basic-test))
+  (:export
+   #:create-window
+   #:show-triangle
+   #:load-shader
+	   ))
 

@@ -9,7 +9,9 @@
   :pathname "src"
   
   :components ((:file "package")
-	       (:file "triangles")
+	       (:file "util")
+	       (:file "create-window")
+	       (:file "show-triangle")
 	       (:module "shares"
 			:components
 			())
